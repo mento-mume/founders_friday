@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 const WhatHappens = () => {
   return (
     <section className="mt-40">
-      <div className="flex flex-row mx-20 space-x-20">
+      <div className="flex flex-row ml-20 mr-32 space-x-20">
         <div>
           <div>
             <p className="text-[#5C00B3] text-xl font-bold">Founders Friday</p>
@@ -25,11 +25,7 @@ const WhatHappens = () => {
             Learn More <FaArrowRight className="ml-2" />
           </button>
         </div>
-        {/* <div className=" flex flex-row ">
-          <img src={image2} className="w-[950px] z-40 " />
-          <img src={image1} className="w-[950px] z-0  " />
-        </div>
-         */}
+
         <div className="relative w-[950px] h-auto">
           <img
             src={image1}
