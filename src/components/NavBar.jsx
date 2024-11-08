@@ -51,7 +51,7 @@ const NavBar = () => {
 
       {/* Mobile Overlay Menu */}
       {isMenuOpen && (
-        <div className="fixed inset-0 bg-white bg-opacity-70 flex flex-col items-center justify-center z-50 md:hidden">
+        <div className="fixed h-screen w-screen inset-0 bg-white bg-opacity-70 flex flex-col items-center justify-center z-50 md:hidden">
           <button
             onClick={() => setIsMenuOpen(false)}
             className="absolute top-4 right-4 text-white text-3xl"
