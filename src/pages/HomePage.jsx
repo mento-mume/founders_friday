@@ -21,6 +21,7 @@ const HomePage = () => {
         src={vector}
         className="absolute -z-10 w-[900px] h-[100xpx] ml-[290px]"
       /> */}
+
       <Hero />
       <WhoAreWe />
       <WhatWeOffer />
